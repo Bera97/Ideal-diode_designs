@@ -1,0 +1,8 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100 nF,C_0805_2012Metric,114.5,-111.5,-90.0,top
+C2,100 nF,C_0805_2012Metric,126.0,-111.5,90.0,top
+J1_OUT1,Screw_Terminal_01x02,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",105.7275,-112.0,-90.0,top
+J2_IN1,Screw_Terminal_01x02,"TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",134.1725,-112.0,90.0,top
+Q1,DMP2008UFG-7,DMP2008UFG-7_DIO_fixed,120.2,-113.025001,0.0,top
+Q2,DMP2008UFG-7,DMP2008UFG-7_DIO_fixed,120.2,-118.525001,0.0,top
+U1,LTC4412xS6,TSOT-23-6,120.0,-105.95,0.0,top

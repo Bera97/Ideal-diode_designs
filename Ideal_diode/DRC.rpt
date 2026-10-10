@@ -1,0 +1,30 @@
+** Drc report for Ideal_diode.kicad_pcb **
+** Created on 2026-10-08T02:51:14 **
+** Report includes: Errors, Warnings **
+
+** Found 3 DRC violations **
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0400 mm)
+    Local override; error
+    @(118.9000 mm, 114.0000 mm): Pad 4 [Net-(U1-GATE)] of Q1 on Front
+    @(118.9000 mm, 113.3500 mm): Track [Net-(J1_OUT1-Pin_2)] on Front, length 0.6500 mm
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.1003 mm)
+    Local override; error
+    @(120.3753 mm, 118.5250 mm): Pad 5 [Net-(J2_IN1-Pin_1)] of Q2 on Front
+    @(118.9000 mm, 118.2000 mm): Track [Net-(J1_OUT1-Pin_2)] on Front, length 3.2000 mm
+[clearance]: Clearance violation ( clearance 0.1270 mm; actual 0.0400 mm)
+    Local override; error
+    @(118.9000 mm, 119.5000 mm): Pad 4 [Net-(U1-GATE)] of Q2 on Front
+    @(118.9000 mm, 118.2000 mm): Track [Net-(J1_OUT1-Pin_2)] on Front, length 0.6500 mm
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

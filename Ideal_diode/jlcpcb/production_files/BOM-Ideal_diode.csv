@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC,Quantity
+100 nF,"C1,C2",C_0805_2012Metric,C49678,2
+DMP2008UFG-7,"Q1,Q2",DMP2008UFG-7_DIO_fixed,C461052,2
+LTC4412xS6,U1,TSOT-23-6,C521306,1
+Screw_Terminal_01x02,"J1_OUT1,J2_IN1","TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",C474881,2
