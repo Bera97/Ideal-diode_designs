@@ -1,24 +1,12 @@
 ** Drc report for Ideal_diode_complex.kicad_pcb **
-** Created on 2026-10-11T15:57:15 **
+** Created on 2026-10-12T23:54:53 **
 ** Report includes: Errors, Warnings **
 
-** Found 4 DRC violations **
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2000 mm)
-    Rule: board setup constraints hole; error
-    @(133.9500 mm, 124.4000 mm): Pad 1 [Net-(D1-A)] of USB1 on Front
-    @(134.9000 mm, 125.1000 mm): NPTH pad of USB1
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.2000 mm)
-    Rule: board setup constraints hole; error
-    @(133.9500 mm, 121.8000 mm): Pad 5 [GND] of USB1 on Front
-    @(134.9000 mm, 121.1000 mm): NPTH pad of USB1
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1501 mm)
-    Rule: board setup constraints hole; error
-    @(134.7500 mm, 126.3001 mm): Pad 6 [GND] of USB1 on Front
-    @(134.9000 mm, 125.1000 mm): NPTH pad of USB1
-[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1501 mm)
-    Rule: board setup constraints hole; error
-    @(134.7500 mm, 119.8999 mm): Pad 6 [GND] of USB1 on Front
-    @(134.9000 mm, 121.1000 mm): NPTH pad of USB1
+** Found 1 DRC violations **
+[starved_thermal]: Thermal relief connection to zone incomplete (layer Front; zone min spoke count 2; actual 1)
+    Local override; error
+    @(60.5000 mm, 64.5000 mm): Zone [GND] on Front and Back, priority 0
+    @(121.0000 mm, 114.4900 mm): Pad 1 [GND] of R3 on Front
 
 ** Found 0 unconnected pads **
 
