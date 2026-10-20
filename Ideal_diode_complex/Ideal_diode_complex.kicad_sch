@@ -1170,177 +1170,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:B5819W_C8598"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "B5819W_C8598"
-				(at 0 -2 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:B5819W_C8598"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--B5819W-SL_C8598.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1A 40V 600mV@1A 9A Independent SOD-123 Schottky Diodes ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C8598"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "B5819W SL"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "B5819W SL C8598 Jiangsu Changjing Electronics Technology Co., Ltd. SOD-123_L2.7-W1.6-LS3.7-RD-1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "B5819W_C8598_0_1"
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy -0.508 -2.286) (xy -1.27 -2.286) (xy -1.27 1.016) (xy -1.27 1.778) (xy -2.032 1.778)
-						(xy -2.032 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.524) (xy -1.27 0) (xy 1.27 -1.524) (xy 1.27 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLCImport:KT-0603R"
 			(pin_names
 				(offset 1.016)
@@ -1914,7 +1743,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLCImport:MWSA0402S-100MT"
+		(symbol "JLCImport:MAX40200AUK_T"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1923,8 +1752,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 2 0)
+			(property "Reference" "U"
+				(at 0 7.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1933,8 +1762,8 @@
 					)
 				)
 			)
-			(property "Value" "MWSA0402S-100MT"
-				(at 0 -2 0)
+			(property "Value" "MAX40200AUK_T"
+				(at 0 -7.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1943,7 +1772,7 @@
 					)
 				)
 			)
-			(property "Footprint" "JLCImport:MWSA0402S-100MT"
+			(property "Footprint" "JLCImport:MAX40200AUK_T"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1954,7 +1783,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2310241505_Sunlord-MWSA0402S-100MT_C408339.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121738_Analog-Devices-Inc--Maxim-Integrated-MAX40200AUK-T_C2649430.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1965,7 +1794,7 @@
 					)
 				)
 			)
-			(property "Description" "1.6A 10uH 282mΩ 2A ±20% SMD,4.4x4.2mm Power Inductors ROHS"
+			(property "Description" "-40℃~+125℃ 1 1.5V~5.5V 1A Active High Ideal Diode SOT-23-5 ORing Controllers ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1976,7 +1805,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C408339"
+			(property "LCSC" "C2649430"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1987,7 +1816,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Sunlord"
+			(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1998,7 +1827,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part" "MWSA0402S-100MT"
+			(property "Manufacturer Part" "MAX40200AUK+T"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2009,7 +1838,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C408339 IND-SMD_L4.4-W4.2 MWSA0402S-100MT Sunlord"
+			(property "ki_keywords" "Analog Devices Inc./Maxim Integrated C2649430 MAX40200AUK+T TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2020,59 +1849,40 @@
 					)
 				)
 			)
-			(symbol "MWSA0402S-100MT_0_1"
-				(arc
-					(start -4.2883 0.0173)
-					(mid -3.2763 1.0283)
-					(end -2.2652 0.0163)
+			(symbol "MAX40200AUK_T_0_1"
+				(circle
+					(center -6.35 3.81)
+					(radius 0.381)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(arc
-					(start -2.1336 0.018)
-					(mid -1.1214 1.0291)
-					(end -0.1105 0.0168)
+				(polyline
+					(pts
+						(xy 7.112 -5.08) (xy 7.2111 -5.0702) (xy 7.3064 -5.0413) (xy 7.3942 -4.9944) (xy 7.4712 -4.9312)
+						(xy 7.5344 -4.8542) (xy 7.5813 -4.7664) (xy 7.6102 -4.6711) (xy 7.62 -4.572) (xy 7.6102 4.6711)
+						(xy 7.5813 4.7664) (xy 7.5344 4.8542) (xy 7.4712 4.9312) (xy 7.3942 4.9944) (xy 7.3064 5.0413)
+						(xy 7.2111 5.0702) (xy 7.112 5.08) (xy -7.2111 5.0702) (xy -7.3064 5.0413) (xy -7.3942 4.9944)
+						(xy -7.4712 4.9312) (xy -7.5344 4.8542) (xy -7.5813 4.7664) (xy -7.6102 4.6711) (xy -7.62 4.572)
+						(xy -7.6102 -4.6711) (xy -7.5813 -4.7664) (xy -7.5344 -4.8542) (xy -7.4712 -4.9312) (xy -7.3942 -4.9944)
+						(xy -7.3064 -5.0413) (xy -7.2111 -5.0702) (xy -7.112 -5.08) (xy 7.112 -5.08)
+					)
 					(stroke
 						(width 0.254)
 						(type solid)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.017 0.018)
-					(mid 1.0292 1.0291)
-					(end 2.0401 0.0168)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.2098 0.0175)
-					(mid 3.222 1.0284)
-					(end 4.233 0.0163)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin unspecified line
-					(at -5.08 0 0)
-					(length 0.762)
-					(name "1"
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2088,9 +1898,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 0 180)
-					(length 0.762)
-					(name "2"
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2098,6 +1908,60 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2423,235 +2287,6 @@
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:TPS61041DBVR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 7.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS61041DBVR"
-				(at 0 -7.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:TPS61041DBVR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809251733_Texas-Instruments-TPS61041DBVR_C9846.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-40℃~+125℃@(TJ) 1 1.8V~6V 1MHz 250mA 28V 28uA Adjustable Boost Boost Built-in No SOT-23-5 DC-DC Converters ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C9846"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "TPS61041DBVR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C9846 SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR TPS61041DBVR Texas Instruments"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TPS61041DBVR_0_1"
-				(circle
-					(center -5.08 3.81)
-					(radius 0.381)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 -5.08) (xy 5.9411 -5.0702) (xy 6.0364 -5.0413) (xy 6.1242 -4.9944) (xy 6.2012 -4.9312)
-						(xy 6.2644 -4.8542) (xy 6.3113 -4.7664) (xy 6.3402 -4.6711) (xy 6.35 -4.572) (xy 6.3402 4.6711)
-						(xy 6.3113 4.7664) (xy 6.2644 4.8542) (xy 6.2012 4.9312) (xy 6.1242 4.9944) (xy 6.0364 5.0413)
-						(xy 5.9411 5.0702) (xy 5.842 5.08) (xy -5.9411 5.0702) (xy -6.0364 5.0413) (xy -6.1242 4.9944)
-						(xy -6.2012 4.9312) (xy -6.2644 4.8542) (xy -6.3113 4.7664) (xy -6.3402 4.6711) (xy -6.35 4.572)
-						(xy -6.3402 -4.6711) (xy -6.3113 -4.7664) (xy -6.2644 -4.8542) (xy -6.2012 -4.9312) (xy -6.1242 -4.9944)
-						(xy -6.0364 -5.0413) (xy -5.9411 -5.0702) (xy -5.842 -5.08) (xy 5.842 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3277,34 +2912,10 @@
 		(uuid "0d94e176-b11a-43ff-8aaf-72ff3e8dc56f")
 	)
 	(junction
-		(at 220.98 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "106259ee-e952-48d9-a877-94c62faafa79")
-	)
-	(junction
 		(at 175.26 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12a5c74c-692e-43df-9fab-f23d5e42c39e")
-	)
-	(junction
-		(at 220.98 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16279565-bdf5-495e-9d58-11a3ceb477b4")
-	)
-	(junction
-		(at 74.93 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19c7f14e-a392-4f70-8cec-508ec4eaa9df")
-	)
-	(junction
-		(at 224.79 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f0c78de-acee-4361-98c1-8077ca813780")
 	)
 	(junction
 		(at 63.5 97.79)
@@ -3313,16 +2924,28 @@
 		(uuid "25d7158d-ede5-466c-8f4f-b491d817e0b3")
 	)
 	(junction
-		(at 220.98 121.92)
+		(at 139.7 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "47803309-522e-4cb9-85ca-3779e3cdfcfd")
+		(uuid "27f802b3-96dd-44ec-bcb6-577aabd15591")
+	)
+	(junction
+		(at 181.61 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4435983f-9eb1-43b2-b962-9e9160372c5f")
 	)
 	(junction
 		(at 113.03 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4801a87f-ab42-40b6-9a3d-1c0fed3041a8")
+	)
+	(junction
+		(at 198.12 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4908eadf-5a8a-4db4-af32-9217b541affa")
 	)
 	(junction
 		(at 186.69 144.78)
@@ -3349,24 +2972,6 @@
 		(uuid "50b0f564-130a-4937-a32b-82b73f378c8a")
 	)
 	(junction
-		(at 181.61 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5966b1b7-aa42-4be2-bc36-68a1aa99c7b4")
-	)
-	(junction
-		(at 233.68 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a946aae-511d-45a4-b7ec-98c2dcca9f69")
-	)
-	(junction
-		(at 247.65 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b790d96-b23c-4a7d-a231-cb604d3ac176")
-	)
-	(junction
 		(at 168.91 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3379,10 +2984,10 @@
 		(uuid "65334d13-e10c-4c0f-b4f9-1291936b4dc4")
 	)
 	(junction
-		(at 233.68 111.76)
+		(at 162.56 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a59efea-80ee-4919-bb93-5ede33609e2c")
+		(uuid "68df481a-4499-4340-b39e-363239cbb634")
 	)
 	(junction
 		(at 153.67 57.15)
@@ -3397,10 +3002,10 @@
 		(uuid "71a1c984-a9ea-46ae-a2aa-71e4c5d28b92")
 	)
 	(junction
-		(at 224.79 111.76)
+		(at 203.2 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d473d91-516f-4ed9-8b7a-279e5ba227bf")
+		(uuid "73b1ac20-a4bf-42a6-9373-2d415928250d")
 	)
 	(junction
 		(at 127 102.87)
@@ -3421,6 +3026,12 @@
 		(uuid "90191a3b-491e-465f-bcac-ec14ad2c5782")
 	)
 	(junction
+		(at 181.61 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9632bc07-d6e1-40c8-8695-cf4be48a9324")
+	)
+	(junction
 		(at 78.74 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3433,22 +3044,16 @@
 		(uuid "98c98739-50b1-4c78-bd3b-bf857773fcaf")
 	)
 	(junction
+		(at 198.12 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99475317-2d8c-4909-a5d6-cfd975f8ce6e")
+	)
+	(junction
 		(at 175.26 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ec6f49f-ed58-4224-964b-20f536a13d37")
-	)
-	(junction
-		(at 208.28 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a21817e7-6a4e-4c43-9f42-21e72e647e98")
-	)
-	(junction
-		(at 181.61 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1c74d98-0256-4dc4-b081-b9dbebf5f864")
 	)
 	(junction
 		(at 88.9 64.77)
@@ -3461,12 +3066,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7e532af-6597-4605-88b8-54b1b0870542")
-	)
-	(junction
-		(at 139.7 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b85baff9-1af2-4266-80ac-fcc54ef88106")
 	)
 	(junction
 		(at 120.65 114.3)
@@ -3511,40 +3110,20 @@
 		(uuid "d895c3e9-b7cb-4365-ace8-1064e3f6e8d9")
 	)
 	(junction
-		(at 241.3 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e17cd13f-9efb-4f2f-a387-224716a2b61f")
-	)
-	(junction
-		(at 181.61 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2a6f073-45a5-4a0b-971c-dcb1818a2c10")
-	)
-	(junction
-		(at 181.61 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2df7435-0079-4282-8192-6e54d826f49a")
-	)
-	(junction
 		(at 144.78 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e68daf66-a628-4e22-b8d1-7ad63851b016")
 	)
 	(junction
-		(at 74.93 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f236811e-45a4-4a5d-8f84-264d48ed0ff6")
-	)
-	(junction
 		(at 82.55 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f590daee-c34a-422e-b48a-573411f626c9")
+	)
+	(no_connect
+		(at 172.72 86.36)
+		(uuid "fe960147-04bb-4e3f-bff2-88c89d41e6db")
 	)
 	(wire
 		(pts
@@ -3558,16 +3137,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 52.07) (xy 73.66 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02074ba7-5619-46a3-b398-0c3e76616cbb")
-	)
-	(wire
-		(pts
 			(xy 151.13 53.34) (xy 151.13 52.07)
 		)
 		(stroke
@@ -3575,26 +3144,6 @@
 			(type default)
 		)
 		(uuid "02dfa510-5b94-420f-a5eb-56c66edeefb8")
-	)
-	(wire
-		(pts
-			(xy 220.98 97.79) (xy 220.98 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0471a8f1-56f0-4c5f-b308-78caa78824da")
-	)
-	(wire
-		(pts
-			(xy 181.61 100.33) (xy 181.61 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c767730-1b6b-453c-a7ed-f65de2a9d968")
 	)
 	(wire
 		(pts
@@ -3658,16 +3207,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 104.14) (xy 233.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b7e7478-d848-4d3e-94a9-4ce68b5e5d64")
-	)
-	(wire
-		(pts
 			(xy 53.34 48.26) (xy 71.12 48.26)
 		)
 		(stroke
@@ -3675,16 +3214,6 @@
 			(type default)
 		)
 		(uuid "1bea1067-3914-4e9c-b4fc-767297b9ab11")
-	)
-	(wire
-		(pts
-			(xy 208.28 111.76) (xy 208.28 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c7002fb-af92-4bb1-bce7-81fe14497046")
 	)
 	(wire
 		(pts
@@ -3728,6 +3257,26 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 105.41) (xy 181.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc73c5d-2ec8-472a-9092-105a4ae59aed")
+	)
+	(wire
+		(pts
+			(xy 198.12 91.44) (xy 198.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329982ec-176f-4097-b526-bb64836e4d68")
+	)
+	(wire
+		(pts
 			(xy 151.13 54.61) (xy 153.67 54.61)
 		)
 		(stroke
@@ -3745,26 +3294,6 @@
 			(type default)
 		)
 		(uuid "38cd8296-1904-40b9-8eb9-1c1b920174c7")
-	)
-	(wire
-		(pts
-			(xy 224.79 104.14) (xy 224.79 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a126b29-cb50-4d9d-88b0-8c869a7e1544")
-	)
-	(wire
-		(pts
-			(xy 224.79 111.76) (xy 233.68 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bdb0d58-c81f-41bd-a367-d910de6efa0c")
 	)
 	(wire
 		(pts
@@ -3798,6 +3327,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 88.9) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455e9b81-3a53-4609-b6ae-e45ec9f8a661")
+	)
+	(wire
+		(pts
 			(xy 71.12 62.23) (xy 74.93 62.23)
 		)
 		(stroke
@@ -3825,26 +3364,6 @@
 			(type default)
 		)
 		(uuid "4850655f-8779-4661-be48-1b095ef8fee5")
-	)
-	(wire
-		(pts
-			(xy 247.65 85.09) (xy 247.65 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c275acc-0871-4c45-99c1-5ebbb1e545f9")
-	)
-	(wire
-		(pts
-			(xy 173.99 85.09) (xy 247.65 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ed44b72-599a-4202-99cd-b6f95079273a")
 	)
 	(wire
 		(pts
@@ -3878,6 +3397,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 91.44) (xy 198.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ae1d00-edd9-499a-90a2-8fb5f0c43f72")
+	)
+	(wire
+		(pts
 			(xy 168.91 59.69) (xy 168.91 62.23)
 		)
 		(stroke
@@ -3885,16 +3414,6 @@
 			(type default)
 		)
 		(uuid "5448dab6-c08b-4f94-8039-80d9893ba90e")
-	)
-	(wire
-		(pts
-			(xy 233.68 93.98) (xy 224.79 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "567ac7a9-664f-4812-b377-d27c1bf84619")
 	)
 	(wire
 		(pts
@@ -3938,6 +3457,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 88.9) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624c7435-765c-4753-8394-045b0cda35ce")
+	)
+	(wire
+		(pts
 			(xy 182.88 49.53) (xy 170.18 49.53)
 		)
 		(stroke
@@ -3978,13 +3507,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 52.07) (xy 74.93 53.34)
+			(xy 198.12 96.52) (xy 198.12 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d8d435e-aa09-40d2-8d9d-369b99195fd8")
+		(uuid "6d1d4e27-2389-42de-995d-9feaa8afb422")
 	)
 	(wire
 		(pts
@@ -4005,16 +3534,6 @@
 			(type default)
 		)
 		(uuid "7108f462-860c-4368-9edd-a763d0748a4d")
-	)
-	(wire
-		(pts
-			(xy 218.44 111.76) (xy 224.79 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71599e22-f027-47d7-a9bd-6ecd60e32b75")
 	)
 	(wire
 		(pts
@@ -4118,7 +3637,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 135.89) (xy 181.61 128.27)
+			(xy 181.61 105.41) (xy 181.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4148,16 +3667,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 111.76) (xy 247.65 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f8d7f5-8604-45af-998c-ca0dd350b486")
-	)
-	(wire
-		(pts
 			(xy 128.27 93.98) (xy 128.27 95.25)
 		)
 		(stroke
@@ -4178,13 +3687,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 119.38) (xy 241.3 121.92)
+			(xy 162.56 83.82) (xy 162.56 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94cb52f8-e61e-4295-941a-b8b7611fea84")
+		(uuid "94c0ae74-f540-4a6c-8ac8-3a1343f84be0")
 	)
 	(wire
 		(pts
@@ -4198,23 +3707,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 104.14) (xy 220.98 104.14)
+			(xy 203.2 76.2) (xy 203.2 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99c82713-a7b1-4f55-af8b-cddd20c6b1f8")
-	)
-	(wire
-		(pts
-			(xy 181.61 95.25) (xy 181.61 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bfccf06-9a53-4c86-b103-63ac19d6b74b")
+		(uuid "978a5c69-6b0b-499d-b105-833e0c0d9542")
 	)
 	(wire
 		(pts
@@ -4245,16 +3744,6 @@
 			(type default)
 		)
 		(uuid "9f3ca213-2341-4e40-8e51-791178fa6f6e")
-	)
-	(wire
-		(pts
-			(xy 224.79 95.25) (xy 208.28 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f4db86a-0979-455d-aefe-987093d295fb")
 	)
 	(wire
 		(pts
@@ -4388,7 +3877,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 52.07) (xy 74.93 52.07)
+			(xy 73.66 52.07) (xy 78.74 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4408,16 +3897,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 62.23) (xy 74.93 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3e86735-e864-4537-8648-bab998683d78")
-	)
-	(wire
-		(pts
 			(xy 74.93 62.23) (xy 74.93 64.77)
 		)
 		(stroke
@@ -4425,6 +3904,26 @@
 			(type default)
 		)
 		(uuid "b7b7adb4-f208-4f17-b79a-44ad694dfaa7")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 162.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85f5a8e-d2a3-488e-99a8-642af672df71")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 203.2 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b98b2aa8-b4b8-4522-bb94-c231047ab48b")
 	)
 	(wire
 		(pts
@@ -4438,23 +3937,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 121.92) (xy 220.98 130.81)
+			(xy 198.12 86.36) (xy 198.12 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bae63993-3783-49f4-9592-ba051735b0da")
-	)
-	(wire
-		(pts
-			(xy 181.61 111.76) (xy 181.61 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdaa43e8-8858-44c1-b674-0f5ed5629441")
+		(uuid "b9e650be-1b85-4fc2-bc69-be054f848061")
 	)
 	(wire
 		(pts
@@ -4468,33 +3957,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 115.57) (xy 220.98 121.92)
+			(xy 220.98 115.57) (xy 220.98 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c5c5f45d-305e-480f-a283-2b0ba625dfd6")
-	)
-	(wire
-		(pts
-			(xy 224.79 95.25) (xy 224.79 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c69aafbf-6842-445f-b11c-cd71b82aa190")
-	)
-	(wire
-		(pts
-			(xy 181.61 111.76) (xy 186.69 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7219eab-b081-4eb5-b49f-eb46b6e6a4b8")
 	)
 	(wire
 		(pts
@@ -4508,7 +3977,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 85.09) (xy 139.7 91.44)
+			(xy 139.7 78.74) (xy 139.7 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4518,33 +3987,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 104.14) (xy 220.98 115.57)
+			(xy 198.12 96.52) (xy 203.2 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb3e3741-f95b-47f6-9454-cc296726d03c")
-	)
-	(wire
-		(pts
-			(xy 196.85 111.76) (xy 208.28 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc6536b6-1826-4ae7-9104-b3f6d3204429")
-	)
-	(wire
-		(pts
-			(xy 190.5 100.33) (xy 181.61 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc803384-fa21-4c9d-9906-95b5e329c865")
+		(uuid "ce049b28-31f5-4e2e-ae29-2088ac929049")
 	)
 	(wire
 		(pts
@@ -4578,26 +4027,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 97.79) (xy 220.98 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d42528cd-5311-44a8-b952-5f45afd132b3")
-	)
-	(wire
-		(pts
-			(xy 181.61 104.14) (xy 181.61 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6111671-54e8-4ab6-8688-a4e99b8f55ce")
-	)
-	(wire
-		(pts
 			(xy 71.12 52.07) (xy 71.12 54.61)
 		)
 		(stroke
@@ -4605,16 +4034,6 @@
 			(type default)
 		)
 		(uuid "d6745755-30ae-447f-a85b-f7e61ac49b54")
-	)
-	(wire
-		(pts
-			(xy 241.3 93.98) (xy 241.3 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d92257cf-4fb1-42d9-9eca-6f046f3fdf3b")
 	)
 	(wire
 		(pts
@@ -4628,13 +4047,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 119.38) (xy 247.65 119.38)
+			(xy 181.61 128.27) (xy 181.61 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df1575f8-0a0b-454c-9432-d0d7fdf7f609")
+		(uuid "dec0375c-c941-4445-9ee0-ecfa3492ce9f")
 	)
 	(wire
 		(pts
@@ -4668,6 +4087,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1df56a-65f8-4a2f-9dab-89c4c44eb118")
+	)
+	(wire
+		(pts
 			(xy 53.34 58.42) (xy 71.12 58.42)
 		)
 		(stroke
@@ -4685,6 +4114,16 @@
 			(type default)
 		)
 		(uuid "f3cfd325-4621-47aa-ac83-e012eadb9927")
+	)
+	(wire
+		(pts
+			(xy 193.04 86.36) (xy 198.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42c96e3-5d8e-4583-9e8f-a526b2e1cd7e")
 	)
 	(wire
 		(pts
@@ -4708,26 +4147,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 121.92) (xy 220.98 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f74ebc59-794c-4655-b755-08d5c498b2a8")
-	)
-	(wire
-		(pts
-			(xy 139.7 85.09) (xy 163.83 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f845c136-1c47-4d20-b61d-f316d1ea7e70")
-	)
-	(wire
-		(pts
 			(xy 195.58 144.78) (xy 220.98 144.78)
 		)
 		(stroke
@@ -4735,26 +4154,6 @@
 			(type default)
 		)
 		(uuid "f9ed8402-63cf-48cd-a095-20cab745217b")
-	)
-	(wire
-		(pts
-			(xy 139.7 78.74) (xy 139.7 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc72eaba-a28a-44ad-a379-7bbe547a3fee")
-	)
-	(wire
-		(pts
-			(xy 190.5 95.25) (xy 181.61 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff2fc30a-7fc6-4274-8e18-3cdb559011cd")
 	)
 	(label "AUX 5V"
 		(at 196.85 143.51 0)
@@ -4805,6 +4204,170 @@
 			(justify left bottom)
 		)
 		(uuid "bd256298-6af3-4543-9190-794bbc35fe80")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02eac89e-6137-4bd2-b3de-18cfe32efb1d")
+		(property "Reference" "C3"
+			(at 166.37 86.3599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 166.37 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 163.5252 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdee0ffc-5e96-43e1-9ac1-d6dc2d4f02bd")
+		)
+		(pin "2"
+			(uuid "815eabbf-de3a-4959-be39-374398ae4d57")
+		)
+		(instances
+			(project "Ideal_diode_complex"
+				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08764a04-7c33-49a6-b872-9f3ae533a9da")
+		(property "Reference" "C4"
+			(at 207.01 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 207.01 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 204.1652 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32b4726e-f10a-4fa2-9001-ec0870b8dc35")
+		)
+		(pin "2"
+			(uuid "04126113-b776-47bb-9f2a-d2d4c51665ae")
+		)
+		(instances
+			(project "Ideal_diode_complex"
+				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -5388,8 +4951,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 224.79 107.95 180)
+		(lib_id "JLCImport:MAX40200AUK_T")
+		(at 182.88 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5398,31 +4961,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "42a1f638-2879-4459-8732-ee3704c48279")
-		(property "Reference" "R5"
-			(at 227.33 106.6799 0)
+		(uuid "48c897c2-1518-4e76-b96c-2d705a97381c")
+		(property "Reference" "U1"
+			(at 182.88 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "18 k"
-			(at 227.33 109.2199 0)
+		(property "Value" "MAX40200AUK_T"
+			(at 182.88 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 226.568 107.95 90)
+		(property "Footprint" "JLCImport:MAX40200AUK_T"
+			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5432,8 +4993,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 224.79 107.95 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121738_Analog-Devices-Inc--Maxim-Integrated-MAX40200AUK-T_C2649430.pdf"
+			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5443,8 +5004,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 224.79 107.95 0)
+		(property "Description" "-40℃~+125℃ 1 1.5V~5.5V 1A Active High Ideal Diode SOT-23-5 ORing Controllers ROHS"
+			(at 182.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2649430"
+			(at 182.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Analog Devices Inc./Maxim Integrated"
+			(at 182.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "MAX40200AUK+T"
+			(at 182.88 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5455,15 +5049,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "6a52f6f9-e192-44be-9d89-648be9e062ff")
+			(uuid "bae12c69-5c89-4449-a135-36e4af611c38")
+		)
+		(pin "5"
+			(uuid "1f5cb1a8-0a64-4477-9f2b-91d3c5a2b59d")
+		)
+		(pin "4"
+			(uuid "07ba8590-98fe-454c-a147-692062fb8e9e")
 		)
 		(pin "1"
-			(uuid "489f2731-f57a-4629-8600-abdfba53c360")
+			(uuid "d8057c36-2ac4-4926-84cf-36e7ee8085c4")
+		)
+		(pin "3"
+			(uuid "afbf91f7-054f-4336-ae7b-3fd3d8fc845e")
 		)
 		(instances
 			(project "Ideal_diode_complex"
 				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "R5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5693,119 +5296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLCImport:MWSA0402S-100MT")
-		(at 191.77 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a4304a9-bcad-446c-903a-5cd266d9d956")
-		(property "Reference" "L1"
-			(at 191.7423 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MWSA0402S-100MT"
-			(at 191.7423 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:MWSA0402S-100MT"
-			(at 191.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2310241505_Sunlord-MWSA0402S-100MT_C408339.pdf"
-			(at 191.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1.6A 10uH 282mΩ 2A ±20% SMD,4.4x4.2mm Power Inductors ROHS"
-			(at 191.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C408339"
-			(at 191.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Sunlord"
-			(at 191.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "MWSA0402S-100MT"
-			(at 191.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39650c23-9682-4a8f-9fa3-d28ddff343e2")
-		)
-		(pin "2"
-			(uuid "a4541212-1a38-4b6a-afe1-2f5d4e8c9633")
-		)
-		(instances
-			(project "Ideal_diode_complex"
-				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 175.26 53.34 0)
 		(unit 1)
@@ -5878,119 +5368,6 @@
 			(project "Ideal_diode_complex"
 				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:B5819W_C8598")
-		(at 168.91 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66a65e0a-576a-4665-9d1f-2d19308c68b5")
-		(property "Reference" "D2"
-			(at 168.529 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5819W_C8598"
-			(at 168.529 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:B5819W_C8598"
-			(at 168.91 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--B5819W-SL_C8598.pdf"
-			(at 168.91 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1A 40V 600mV@1A 9A Independent SOD-123 Schottky Diodes ROHS"
-			(at 168.91 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C8598"
-			(at 168.91 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
-			(at 168.91 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "B5819W SL"
-			(at 168.91 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6067bd8d-50de-40db-8bc2-485dc3d9a369")
-		)
-		(pin "1"
-			(uuid "66fa9395-f2f4-4f91-9344-2c7ffbff1627")
-		)
-		(instances
-			(project "Ideal_diode_complex"
-				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6071,128 +5448,6 @@
 			(project "Ideal_diode_complex"
 				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:TPS61041DBVR")
-		(at 199.39 97.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77e9aea4-e0bb-405d-a44a-bee6e22b0227")
-		(property "Reference" "U1"
-			(at 199.39 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS61041DBVR"
-			(at 199.39 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:TPS61041DBVR"
-			(at 199.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809251733_Texas-Instruments-TPS61041DBVR_C9846.pdf"
-			(at 199.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-40℃~+125℃@(TJ) 1 1.8V~6V 1MHz 250mA 28V 28uA Adjustable Boost Boost Built-in No SOT-23-5 DC-DC Converters ROHS"
-			(at 199.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C9846"
-			(at 199.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 199.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "TPS61041DBVR"
-			(at 199.39 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3d4163a-d59a-4635-bf35-7df0913227cf")
-		)
-		(pin "4"
-			(uuid "d7638efd-dd07-48bc-860f-742e350f699c")
-		)
-		(pin "2"
-			(uuid "d9372c37-3416-4a43-9e0c-971b38d165dd")
-		)
-		(pin "3"
-			(uuid "11a42857-4658-4aab-be33-e4559ec1402f")
-		)
-		(pin "5"
-			(uuid "f983839e-5bae-4980-b70c-48cd64b07d16")
-		)
-		(instances
-			(project "Ideal_diode_complex"
-				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6388,88 +5643,6 @@
 			(project "Ideal_diode_complex"
 				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
 					(reference "CN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 247.65 115.57 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8673ca5d-f695-45ff-8013-252cdb266a1a")
-		(property "Reference" "C5"
-			(at 251.46 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47 uF"
-			(at 251.46 116.8399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 246.6848 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 247.65 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a0c6423-6511-4d28-abb2-7caef95d6714")
-		)
-		(pin "2"
-			(uuid "7f535194-651f-4445-991b-0fabf0e383ee")
-		)
-		(instances
-			(project "Ideal_diode_complex"
-				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6756,41 +5929,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 233.68 107.95 180)
+		(lib_id "Connector:TestPoint")
+		(at 181.61 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "92042bf0-d126-4bb4-a4d2-ce2f52b24a4a")
-		(property "Reference" "C6"
-			(at 237.49 106.6799 0)
+		(uuid "90a0945a-ba2a-4e3b-80b8-2821349b6963")
+		(property "Reference" "TP6"
+			(at 184.15 100.8379 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "10 nF"
-			(at 237.49 109.2199 0)
+		(property "Value" "TestPoint"
+			(at 184.15 103.3779 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 232.7148 104.14 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 186.69 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6801,7 +5974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 107.95 0)
+			(at 186.69 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,8 +5984,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 233.68 107.95 0)
+		(property "Description" "test point"
+			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,15 +5996,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f79f116-19e1-4553-89df-9b40dfe725a7")
-		)
-		(pin "2"
-			(uuid "49eff8bb-5dcc-49b2-a7d5-14ca02e9dcbb")
+			(uuid "1125e67d-633d-4831-9874-52265f264938")
 		)
 		(instances
 			(project "Ideal_diode_complex"
 				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "C6")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6917,8 +6087,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 74.93 57.15 0)
+		(lib_id "power:GND")
+		(at 213.36 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6927,31 +6097,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "980ded77-dcea-4296-9767-2b4de15c3134")
-		(property "Reference" "C3"
-			(at 78.74 55.8799 0)
+		(uuid "a85aee04-7299-4086-af44-973964e9b07b")
+		(property "Reference" "#PWR04"
+			(at 219.71 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
-			(at 78.74 58.4199 0)
+		(property "Value" "GND"
+			(at 217.17 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 75.8952 60.96 0)
+		(property "Footprint" "JLCImport:MAX40200AUK_T"
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6962,7 +6132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 57.15 0)
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6972,8 +6142,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 74.93 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 213.36 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6984,15 +6154,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "161b342b-ec56-42f4-b430-8cbb6edaa8b9")
-		)
-		(pin "2"
-			(uuid "2a02e2d4-b1d4-454a-823a-21d80c2d2581")
+			(uuid "abb80fc0-d029-4a33-94d1-a4a4337c41b8")
 		)
 		(instances
 			(project "Ideal_diode_complex"
 				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "C3")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -7069,86 +6236,6 @@
 			(project "Ideal_diode_complex"
 				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 185.42 104.14 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa08f4c4-ef4b-4a06-85c2-d5a0dc10f924")
-		(property "Reference" "C4"
-			(at 185.42 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 185.42 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 189.23 103.1748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 185.42 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0c52d46-2542-4224-97d8-c82188532904")
-		)
-		(pin "2"
-			(uuid "55948d93-f5be-4c06-b4f6-0746e1fbe812")
-		)
-		(instances
-			(project "Ideal_diode_complex"
-				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7420,199 +6507,6 @@
 			(project "Ideal_diode_complex"
 				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:B5819W_C8598")
-		(at 213.36 111.76 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b706a68a-032e-4af3-aea0-f3c29b1473c8")
-		(property "Reference" "D1"
-			(at 213.741 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5819W_C8598"
-			(at 213.741 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:B5819W_C8598"
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--B5819W-SL_C8598.pdf"
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1A 40V 600mV@1A 9A Independent SOD-123 Schottky Diodes ROHS"
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C8598"
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Jiangsu Changjing Electronics Technology Co., Ltd."
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "B5819W SL"
-			(at 213.36 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ee9dfaa7-a19e-4814-ba2a-90d85722866f")
-		)
-		(pin "1"
-			(uuid "2e6494a9-920b-4c6d-8a12-e1621c241357")
-		)
-		(instances
-			(project "Ideal_diode_complex"
-				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 237.49 93.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8945b3b-23b7-4467-805f-226b4a294268")
-		(property "Reference" "R6"
-			(at 237.49 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1 k"
-			(at 237.49 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 237.49 95.758 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 237.49 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "47e67010-d685-4784-8431-41eaff8c9263")
-		)
-		(pin "1"
-			(uuid "3b6c0374-d8c1-43f0-a254-8492e8a51a1d")
-		)
-		(instances
-			(project "Ideal_diode_complex"
-				(path "/1720b940-39d6-4d58-8b75-ae19b781e691"
-					(reference "R6")
 					(unit 1)
 				)
 			)
